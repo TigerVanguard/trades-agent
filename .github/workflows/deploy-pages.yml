@@ -1,0 +1,53 @@
+# =============================================================================
+# GitHub Pages 部署工作流
+# =============================================================================
+
+name: Deploy to GitHub Pages
+
+on:
+  # 当 daily-trades 工作流完成后触发
+  workflow_run:
+    workflows: ["Daily Trading Intelligence (DeepSeek v2)"]
+    types:
+      - completed
+  
+  # 手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      
+      - name: Pull latest changes
+        run: git pull origin main
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

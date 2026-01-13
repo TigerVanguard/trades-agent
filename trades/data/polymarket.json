@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-01-13T08:09:23.451389",
+  "markets": [
+    {
+      "id": "36",
+      "question": "What will the price of Bitcoin be on November 4th, 2020?",
+      "outcome_prices": "[\"0\", \"0\"]",
+      "volume": "59755.804763",
+      "liquidity": "0",
+      "end_date": "2020-11-04T00:00:00Z",
+      "category": "Crypto"
+    },
+    {
+      "id": "59",
+      "question": "Will there be a federal charge filed against Hunter Biden before 2021?",
+      "outcome_prices": "[\"0.0000002365760136311761420505896616707271\", \"0.9999997634239863688238579494103383\"]",
+      "volume": "127476.154269",
+      "liquidity": "0.13149",
+      "end_date": "2021-01-02T00:00:00Z",
+      "category": "US-current-affairs"
+    },
+    {
+      "id": "92",
+      "question": "What will Airbnb's market cap be at close on its 1st day publicly trading?",
+      "outcome_prices": "[\"0\", \"0\"]",
+      "volume": "114807.198845",
+      "liquidity": "0",
+      "end_date": null,
+      "category": "Tech"
+    },
+    {
+      "id": "93",
+      "question": "Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?",
+      "outcome_prices": "[\"0.00000002062666446044317342534367877456536\", \"0.9999999793733355395568265746563212\"]",
+      "volume": "30207577.413504",
+      "liquidity": "43.468918",
+      "end_date": "2021-02-01T00:00:00Z",
+      "category": "US-current-affairs"
+    },
+    {
+      "id": "108",
+      "question": "What will the average sale price of the Jordan 1 Mocha on StockX be on Christmas Day?",
+      "outcome_prices": "[\"0\", \"0\"]",
+      "volume": "21681.539389",
+      "liquidity": "0",
+      "end_date": "2020-12-26T00:00:00Z",
+      "category": "Pop-Culture "
+    }
+  ],
+  "total_count": 5
+}

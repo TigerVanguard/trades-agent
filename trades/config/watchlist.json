@@ -1,0 +1,35 @@
+{
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "GOOGL",
+    "AMZN",
+    "NVDA",
+    "TSLA",
+    "META",
+    "AMD",
+    "NFLX",
+    "CRM"
+  ],
+  "sectors": [
+    "Technology",
+    "AI/ML",
+    "Semiconductors"
+  ],
+  "keywords": [
+    "artificial intelligence",
+    "machine learning",
+    "cloud computing",
+    "electric vehicles"
+  ],
+  "politicians_to_watch": [
+    "Nancy Pelosi",
+    "Dan Crenshaw",
+    "Josh Gottheimer"
+  ],
+  "alert_thresholds": {
+    "congress_trade_min_amount": 100000,
+    "insider_trade_min_shares": 10000,
+    "volume_spike_multiplier": 2.0
+  }
+}

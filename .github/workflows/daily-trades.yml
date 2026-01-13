@@ -1,0 +1,162 @@
+# =============================================================================
+# Daily Trading Intelligence Brief (DeepSeek Version v2)
+# =============================================================================
+# 
+# 基于《个人全景监狱》文章描述的完整实现
+# 
+# 数据源：
+#   - 国会交易披露 (Congress Trades)
+#   - 内幕交易 (Insider Trading - Form 4)
+#   - SEC 文件 (10-K, 10-Q, 8-K)
+#   - 市场数据 (Yahoo Finance)
+#   - Polymarket 预测市场
+#   - 新闻标题
+#
+# =============================================================================
+
+name: Daily Trading Intelligence (DeepSeek v2)
+
+on:
+  # 定时触发 - 每天 UTC 14:00 (美股收盘后，北京时间22:00)
+  schedule:
+    - cron: '0 14 * * 1-5'  # 周一到周五
+  
+  # 手动触发
+  workflow_dispatch:
+    inputs:
+      focus_ticker:
+        description: '特定关注的股票代码（可选）'
+        required: false
+        default: ''
+      analysis_depth:
+        description: '分析深度'
+        required: false
+        default: 'standard'
+        type: choice
+        options:
+          - quick
+          - standard
+          - deep
+
+concurrency:
+  group: daily-trades
+  cancel-in-progress: true
+
+env:
+  TZ: America/New_York
+
+jobs:
+  trading-intelligence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+      
+    steps:
+      # =========================================
+      # Step 1: 检出代码库
+      # =========================================
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      # =========================================
+      # Step 2: 设置Python环境
+      # =========================================
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install openai requests pandas yfinance beautifulsoup4 jinja2
+      
+      # =========================================
+      # Step 3: 收集市场数据
+      # =========================================
+      - name: Collect market data
+        run: |
+          python trades/scripts/collect_market_data.py
+      
+      # =========================================
+      # Step 4: 收集国会交易数据
+      # =========================================
+      - name: Collect congress trades
+        run: |
+          python trades/scripts/collect_congress_trades.py
+      
+      # =========================================
+      # Step 5: 收集内幕交易数据
+      # =========================================
+      - name: Collect insider trades
+        run: |
+          python trades/scripts/collect_insider_trades.py
+      
+      # =========================================
+      # Step 6: 收集SEC文件
+      # =========================================
+      - name: Collect SEC filings
+        run: |
+          python trades/scripts/collect_sec_filings.py
+      
+      # =========================================
+      # Step 7: 收集Polymarket数据
+      # =========================================
+      - name: Collect Polymarket data
+        run: |
+          python trades/scripts/collect_polymarket.py
+        continue-on-error: true
+      
+      # =========================================
+      # Step 8: 使用 DeepSeek API 生成分析报告
+      # =========================================
+      - name: Generate trading brief with DeepSeek
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          FOCUS_TICKER: ${{ github.event.inputs.focus_ticker }}
+          ANALYSIS_DEPTH: ${{ github.event.inputs.analysis_depth || 'standard' }}
+        run: |
+          python trades/scripts/generate_brief.py
+      
+      # =========================================
+      # Step 9: 生成GitHub Pages网页
+      # =========================================
+      - name: Generate GitHub Pages
+        run: |
+          python trades/scripts/generate_pages.py
+      
+      # =========================================
+      # Step 10: 提交生成的简报
+      # =========================================
+      - name: Commit trading brief
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add trades/output/
+          git add trades/data/
+          git add docs/
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Daily Trading Brief - $(date +%Y-%m-%d)"
+            git push
+          fi
+      
+      # =========================================
+      # Step 11: 发送通知
+      # =========================================
+      - name: Send notifications
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python trades/scripts/send_notifications.py
+        continue-on-error: true
