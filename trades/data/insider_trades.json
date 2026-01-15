@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-01-15T09:32:12.799329",
+  "trades": [
+    {
+      "ticker": "NVDA",
+      "insider_name": "Jensen Huang",
+      "relation": "CEO",
+      "transaction_type": "Sale",
+      "shares": 100000,
+      "latest_trans_date": "2026-01-10"
+    },
+    {
+      "ticker": "AAPL",
+      "insider_name": "Tim Cook",
+      "relation": "CEO",
+      "transaction_type": "Sale",
+      "shares": 50000,
+      "latest_trans_date": "2026-01-08"
+    }
+  ],
+  "total_count": 2
+}

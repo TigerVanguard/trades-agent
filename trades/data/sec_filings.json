@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-01-15T09:32:12.832212",
+  "filings": [
+    {
+      "ticker": "AAPL",
+      "type": "10-K",
+      "title": "Annual Report",
+      "date": "2025-10-30",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193"
+    },
+    {
+      "ticker": "NVDA",
+      "type": "8-K",
+      "title": "Current Report",
+      "date": "2026-01-05",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810"
+    }
+  ],
+  "total_count": 2
+}
