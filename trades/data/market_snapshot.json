@@ -1,49 +1,333 @@
 {
-  "timestamp": "2026-01-21T09:38:31.549443",
+  "timestamp": "2026-01-22T09:37:45.703230",
   "market_data": {
     "AAPL": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Apple Inc.",
+      "price": 250.415,
+      "previous_close": 247.65,
+      "change_percent": 1.1164949,
+      "volume": 3082858,
+      "avg_volume": 46204940,
+      "market_cap": 3700220231680,
+      "pe_ratio": 33.61275,
+      "forward_pe": 27.404926,
+      "52w_high": 288.62,
+      "52w_low": 169.21,
+      "50d_avg": 270.5986,
+      "200d_avg": 234.3916,
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "recent_prices": [
+        258.2099914550781,
+        255.52999877929688,
+        246.6999969482422,
+        247.64999389648438,
+        250.4199981689453
+      ],
+      "recent_volumes": [
+        39388600,
+        72142800,
+        80267500,
+        54446100,
+        3081187
+      ]
     },
     "MSFT": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Microsoft Corporation",
+      "price": 448.785,
+      "previous_close": 444.11,
+      "change_percent": 1.0526713,
+      "volume": 2029711,
+      "avg_volume": 24641970,
+      "market_cap": 3335893549056,
+      "pe_ratio": 31.873936,
+      "forward_pe": 23.955746,
+      "52w_high": 555.45,
+      "52w_low": 344.79,
+      "50d_avg": 482.722,
+      "200d_avg": 482.9756,
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "recent_prices": [
+        456.6600036621094,
+        459.8599853515625,
+        454.5199890136719,
+        444.1099853515625,
+        448.8500061035156
+      ],
+      "recent_volumes": [
+        23225800,
+        34246700,
+        26130000,
+        37861300,
+        2027842
+      ]
     },
     "GOOGL": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Alphabet Inc.",
+      "price": 334.23,
+      "previous_close": 328.38,
+      "change_percent": 1.7814745,
+      "volume": 3063094,
+      "avg_volume": 36504957,
+      "market_cap": 4048234741760,
+      "pe_ratio": 33.05935,
+      "forward_pe": 29.658926,
+      "52w_high": 340.49,
+      "52w_low": 140.53,
+      "50d_avg": 310.9874,
+      "200d_avg": 228.07635,
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "recent_prices": [
+        332.7799987792969,
+        330.0,
+        322.0,
+        328.3800048828125,
+        334.17999267578125
+      ],
+      "recent_volumes": [
+        28442400,
+        40341600,
+        35361000,
+        35317000,
+        3062802
+      ]
     },
     "AMZN": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Amazon.com, Inc.",
+      "price": 233.07,
+      "previous_close": 231.3,
+      "change_percent": 0.76517564,
+      "volume": 3232242,
+      "avg_volume": 44870068,
+      "market_cap": 2491568619520,
+      "pe_ratio": 32.919495,
+      "forward_pe": 29.655615,
+      "52w_high": 258.6,
+      "52w_low": 161.38,
+      "50d_avg": 232.749,
+      "200d_avg": 219.6626,
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "recent_prices": [
+        238.17999267578125,
+        239.1199951171875,
+        231.0,
+        231.30999755859375,
+        233.12159729003906
+      ],
+      "recent_volumes": [
+        43003600,
+        45888300,
+        47737900,
+        47078500,
+        3229909
+      ]
     },
     "NVDA": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "NVIDIA Corporation",
+      "price": 184.37,
+      "previous_close": 183.18,
+      "change_percent": 0.6496356,
+      "volume": 11704796,
+      "avg_volume": 186760437,
+      "market_cap": 4488856338432,
+      "pe_ratio": 45.749374,
+      "forward_pe": 24.057068,
+      "52w_high": 212.19,
+      "52w_low": 86.62,
+      "50d_avg": 184.1198,
+      "200d_avg": 164.8022,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "recent_prices": [
+        187.0500030517578,
+        186.22999572753906,
+        178.07000732421875,
+        183.32000732421875,
+        184.36000061035156
+      ],
+      "recent_volumes": [
+        206188600,
+        187967200,
+        223345300,
+        199804100,
+        11701299
+      ]
     },
     "TSLA": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Tesla, Inc.",
+      "price": 433.6837,
+      "previous_close": 431.44,
+      "change_percent": 0.52004516,
+      "volume": 3862828,
+      "avg_volume": 77633404,
+      "market_cap": 1442353512448,
+      "pe_ratio": 295.02292,
+      "forward_pe": 199.77782,
+      "52w_high": 498.83,
+      "52w_low": 214.25,
+      "50d_avg": 441.923,
+      "200d_avg": 370.62714,
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "recent_prices": [
+        438.57000732421875,
+        437.5,
+        419.25,
+        431.44000244140625,
+        433.6836853027344
+      ],
+      "recent_volumes": [
+        49465800,
+        60220600,
+        63187300,
+        67928000,
+        3862814
+      ]
     },
     "META": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Meta Platforms, Inc.",
+      "price": 632.72,
+      "previous_close": 612.96,
+      "change_percent": 3.223693,
+      "volume": 2020393,
+      "avg_volume": 18816444,
+      "market_cap": 1594788151296,
+      "pe_ratio": 27.971704,
+      "forward_pe": 21.044262,
+      "52w_high": 796.25,
+      "52w_low": 479.8,
+      "50d_avg": 638.6048,
+      "200d_avg": 676.2248,
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "recent_prices": [
+        620.7999877929688,
+        620.25,
+        604.1199951171875,
+        612.9600219726562,
+        632.8422241210938
+      ],
+      "recent_volumes": [
+        13076100,
+        17012500,
+        15169600,
+        14464700,
+        2020924
+      ]
     },
     "AMD": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Advanced Micro Devices, Inc.",
+      "price": 249.83,
+      "previous_close": 249.8,
+      "change_percent": 0.012009119,
+      "volume": 4827350,
+      "avg_volume": 41341819,
+      "market_cap": 406733651968,
+      "pe_ratio": 131.48947,
+      "forward_pe": 38.027325,
+      "52w_high": 267.08,
+      "52w_low": 76.48,
+      "50d_avg": 220.2712,
+      "200d_avg": 170.11575,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "recent_prices": [
+        227.9199981689453,
+        231.8300018310547,
+        231.9199981689453,
+        249.8000030517578,
+        249.8300018310547
+      ],
+      "recent_volumes": [
+        55270200,
+        42545600,
+        44327700,
+        62182900,
+        4827315
+      ]
     },
     "NFLX": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Netflix, Inc.",
+      "price": 84.28,
+      "previous_close": 85.36,
+      "change_percent": -1.2652317,
+      "volume": 6729983,
+      "avg_volume": 46186873,
+      "market_cap": 357121589248,
+      "pe_ratio": 33.312252,
+      "forward_pe": 22.02437,
+      "52w_high": 134.115,
+      "52w_low": 81.93,
+      "50d_avg": 98.76134,
+      "200d_avg": 113.02056,
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "recent_prices": [
+        88.05000305175781,
+        88.0,
+        87.26000213623047,
+        85.36000061035156,
+        84.24839782714844
+      ],
+      "recent_volumes": [
+        36945100,
+        48130500,
+        109729700,
+        127688800,
+        6725624
+      ]
     },
     "CRM": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "name": "Salesforce, Inc.",
+      "price": 224.5601,
+      "previous_close": 221.55,
+      "change_percent": 1.3586555,
+      "volume": 551181,
+      "avg_volume": 7815083,
+      "market_cap": 213781217280,
+      "pe_ratio": 29.981323,
+      "forward_pe": 17.122543,
+      "52w_high": 367.09,
+      "52w_low": 218.96,
+      "50d_avg": 247.8776,
+      "200d_avg": 255.1302,
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "recent_prices": [
+        233.52999877929688,
+        227.11000061035156,
+        220.07000732421875,
+        221.5800018310547,
+        224.5601043701172
+      ],
+      "recent_volumes": [
+        11489600,
+        13902600,
+        13050800,
+        12607000,
+        551213
+      ]
     }
   },
   "indices": {
     "S&P 500": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "price": 6923.7,
+      "change_percent": 0.6992205
     },
     "Dow Jones": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "price": 49534.94,
+      "change_percent": 0.93260914
     },
     "NASDAQ": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "price": 23431.629,
+      "change_percent": 0.89043623
     },
     "VIX": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "price": 15.92,
+      "change_percent": -20.766932
     }
   }
 }
