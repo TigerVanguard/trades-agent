@@ -1,333 +1,333 @@
 {
-  "timestamp": "2026-02-10T10:06:42.526667",
+  "timestamp": "2026-02-11T10:01:22.282959",
   "market_data": {
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 274.925,
-      "previous_close": 274.62,
-      "change_percent": 0.1110599,
-      "volume": 4937504,
-      "avg_volume": 48115981,
-      "market_cap": 4040827076608,
-      "pe_ratio": 34.756638,
-      "forward_pe": 29.630392,
+      "price": 276.96,
+      "previous_close": 273.68,
+      "change_percent": 1.1984795,
+      "volume": 9108717,
+      "avg_volume": 47922444,
+      "market_cap": 4070737444864,
+      "pe_ratio": 35.013905,
+      "forward_pe": 29.806894,
       "52w_high": 288.62,
       "52w_low": 169.21,
-      "50d_avg": 268.6552,
-      "200d_avg": 238.92065,
+      "50d_avg": 268.5778,
+      "200d_avg": 239.2472,
       "sector": "Technology",
       "industry": "Consumer Electronics",
       "recent_prices": [
-        276.23150634765625,
         275.6520690917969,
         277.8599853515625,
         274.6199951171875,
-        274.989990234375
+        273.67999267578125,
+        276.94000244140625
       ],
       "recent_volumes": [
-        90545700,
         52977400,
         50453400,
-        44562300,
-        4939144
+        44623400,
+        34341400,
+        9108072
       ]
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 422.55,
-      "previous_close": 413.715,
-      "change_percent": 2.121024,
-      "volume": 8121096,
-      "avg_volume": 30000275,
-      "market_cap": 3140105273344,
-      "pe_ratio": 26.471804,
-      "forward_pe": 22.39778,
+      "price": 407.57,
+      "previous_close": 413.27,
+      "change_percent": -1.3791224,
+      "volume": 7109998,
+      "avg_volume": 30442186,
+      "market_cap": 3029214167040,
+      "pe_ratio": 25.489056,
+      "forward_pe": 21.606815,
       "52w_high": 555.45,
       "52w_low": 344.79,
-      "50d_avg": 467.612,
-      "200d_avg": 487.0993,
+      "50d_avg": 466.1674,
+      "200d_avg": 487.22916,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "recent_prices": [
-        414.19000244140625,
         393.6700134277344,
         401.1400146484375,
         413.6000061035156,
-        422.8900146484375
+        413.2699890136719,
+        407.5701904296875
       ],
       "recent_volumes": [
-        45012400,
         66289200,
         53515300,
-        45339600,
-        8137591
+        45480500,
+        44795700,
+        7107473
       ]
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 318.5157,
-      "previous_close": 324.32,
-      "change_percent": -1.7896895,
-      "volume": 9637619,
-      "avg_volume": 37480193,
-      "market_cap": 3853084524544,
-      "pe_ratio": 29.492193,
-      "forward_pe": 23.921963,
+      "price": 316.71,
+      "previous_close": 318.58,
+      "change_percent": -0.5869782,
+      "volume": 5085379,
+      "avg_volume": 37797414,
+      "market_cap": 3831240851456,
+      "pe_ratio": 29.324999,
+      "forward_pe": 23.744743,
       "52w_high": 349.0,
       "52w_low": 140.53,
-      "50d_avg": 321.7522,
-      "200d_avg": 239.843,
+      "50d_avg": 321.7248,
+      "200d_avg": 240.6395,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
       "recent_prices": [
-        333.0400085449219,
         331.25,
         322.8599853515625,
         324.32000732421875,
-        318.7091064453125
+        318.5799865722656,
+        316.7200012207031
       ],
       "recent_volumes": [
-        70618400,
         88205800,
         56380500,
-        39586100,
-        9645726
+        39640100,
+        39138600,
+        5082150
       ]
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 211.16,
-      "previous_close": 208.72,
-      "change_percent": 1.1689755,
-      "volume": 13552586,
-      "avg_volume": 44781727,
-      "market_cap": 2266785906688,
-      "pe_ratio": 29.409472,
-      "forward_pe": 22.699423,
+      "price": 205.7014,
+      "previous_close": 206.9,
+      "change_percent": -0.5703203,
+      "volume": 12550841,
+      "avg_volume": 45495560,
+      "market_cap": 2208387825664,
+      "pe_ratio": 28.731844,
+      "forward_pe": 22.081705,
       "52w_high": 258.6,
       "52w_low": 161.38,
-      "50d_avg": 232.8824,
-      "200d_avg": 223.328,
+      "50d_avg": 232.4384,
+      "200d_avg": 223.4301,
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
       "recent_prices": [
-        232.99000549316406,
         222.69000244140625,
         210.32000732421875,
         208.72000122070312,
-        211.37269592285156
+        206.9600067138672,
+        205.72000122070312
       ],
       "recent_volumes": [
-        51299900,
         103509200,
         179210900,
-        91004200,
-        13573258
+        91178400,
+        66933700,
+        12549105
       ]
     },
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 189.0385,
-      "previous_close": 190.04,
-      "change_percent": -0.5269919,
-      "volume": 31458632,
-      "avg_volume": 181397331,
-      "market_cap": 4602520403968,
-      "pe_ratio": 46.67617,
-      "forward_pe": 24.50612,
+      "price": 191.65,
+      "previous_close": 188.54,
+      "change_percent": 1.6526498,
+      "volume": 31289394,
+      "avg_volume": 180745911,
+      "market_cap": 4666246561792,
+      "pe_ratio": 47.557293,
+      "forward_pe": 24.822165,
       "52w_high": 212.19,
       "52w_low": 86.62,
-      "50d_avg": 183.8112,
-      "200d_avg": 170.11044,
+      "50d_avg": 183.9768,
+      "200d_avg": 170.521,
       "sector": "Technology",
       "industry": "Semiconductors",
       "recent_prices": [
-        174.19000244140625,
         171.8800048828125,
         185.41000366210938,
         190.0399932861328,
-        189.22000122070312
+        188.5399932861328,
+        191.64500427246094
       ],
       "recent_volumes": [
-        207014100,
         206312900,
         231346200,
-        196085800,
-        31521130
+        196387400,
+        136445100,
+        31242896
       ]
     },
     "TSLA": {
       "name": "Tesla, Inc.",
-      "price": 420.74,
-      "previous_close": 417.32,
-      "change_percent": 0.8195109,
-      "volume": 10329107,
-      "avg_volume": 71671155,
-      "market_cap": 1578798153728,
-      "pe_ratio": 385.99997,
-      "forward_pe": 147.63843,
+      "price": 432.0,
+      "previous_close": 425.21,
+      "change_percent": 1.594731,
+      "volume": 11225672,
+      "avg_volume": 71735413,
+      "market_cap": 1621013037056,
+      "pe_ratio": 407.53775,
+      "forward_pe": 154.04446,
       "52w_high": 498.83,
       "52w_low": 214.25,
-      "50d_avg": 444.511,
-      "200d_avg": 382.3336,
+      "50d_avg": 444.4836,
+      "200d_avg": 383.1621,
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
       "recent_prices": [
-        406.010009765625,
         397.2099914550781,
         411.1099853515625,
         417.32000732421875,
-        421.0450134277344
+        425.2099914550781,
+        432.0
       ],
       "recent_volumes": [
-        74606900,
         72819800,
         62677100,
-        54351900,
-        10342095
+        54484300,
+        64320500,
+        11225677
       ]
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 674.3692,
-      "previous_close": 677.37,
-      "change_percent": -0.44300655,
-      "volume": 1654018,
-      "avg_volume": 17343150,
-      "market_cap": 1705854238720,
-      "pe_ratio": 28.696562,
-      "forward_pe": 18.905563,
+      "price": 669.58,
+      "previous_close": 670.72,
+      "change_percent": -0.1699597,
+      "volume": 2094881,
+      "avg_volume": 17296704,
+      "market_cap": 1693739778048,
+      "pe_ratio": 28.517036,
+      "forward_pe": 18.771301,
       "52w_high": 796.25,
       "52w_low": 479.8,
-      "50d_avg": 656.9978,
-      "200d_avg": 686.63574,
+      "50d_avg": 657.74,
+      "200d_avg": 687.3236,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
       "recent_prices": [
-        668.989990234375,
         670.2100219726562,
         661.4600219726562,
         677.219970703125,
-        674.8800048828125
+        670.719970703125,
+        669.5800170898438
       ],
       "recent_volumes": [
-        16882800,
         17131800,
         18159300,
-        14809800,
-        1656804
+        14837500,
+        10441300,
+        1422239
       ]
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
-      "price": 216.61,
-      "previous_close": 216.0,
-      "change_percent": 0.2824077,
-      "volume": 6463037,
-      "avg_volume": 40010524,
-      "market_cap": 353163313152,
-      "pe_ratio": 82.99234,
-      "forward_pe": 20.52055,
+      "price": 215.61,
+      "previous_close": 213.57,
+      "change_percent": 0.9551648,
+      "volume": 6472320,
+      "avg_volume": 39420572,
+      "market_cap": 351532875776,
+      "pe_ratio": 82.6092,
+      "forward_pe": 20.430983,
       "52w_high": 267.08,
       "52w_low": 76.48,
-      "50d_avg": 221.6686,
-      "200d_avg": 179.6636,
+      "50d_avg": 221.6552,
+      "200d_avg": 180.2591,
       "sector": "Technology",
       "industry": "Semiconductors",
       "recent_prices": [
-        200.19000244140625,
         192.5,
         208.44000244140625,
         216.0,
-        216.88400268554688
+        213.57000732421875,
+        215.61000061035156
       ],
       "recent_volumes": [
-        107173300,
         62196400,
         54504500,
-        38730100,
-        6479894
+        38810800,
+        25269000,
+        6472320
       ]
     },
     "NFLX": {
       "name": "Netflix, Inc.",
-      "price": 84.33,
-      "previous_close": 81.47,
-      "change_percent": 3.4736736,
-      "volume": 9549613,
-      "avg_volume": 46368967,
-      "market_cap": 357591285760,
-      "pe_ratio": 33.32016,
-      "forward_pe": 22.072224,
+      "price": 80.8,
+      "previous_close": 82.21,
+      "change_percent": -1.7090364,
+      "volume": 6398347,
+      "avg_volume": 46624816,
+      "market_cap": 342765895680,
+      "pe_ratio": 31.938736,
+      "forward_pe": 21.15713,
       "52w_high": 134.115,
       "52w_low": 79.23,
-      "50d_avg": 91.6712,
-      "200d_avg": 112.26917,
+      "50d_avg": 91.1926,
+      "200d_avg": 112.13179,
       "sector": "Communication Services",
       "industry": "Entertainment",
       "recent_prices": [
-        80.16000366210938,
         80.87000274658203,
         82.19999694824219,
         81.47000122070312,
-        84.31060028076172
+        82.20999908447266,
+        80.79000091552734
       ],
       "recent_volumes": [
-        48963200,
         54805700,
         46154100,
-        42151400,
-        9557474
+        42200200,
+        43524000,
+        6387848
       ]
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 198.15,
-      "previous_close": 194.03,
-      "change_percent": 2.1233804,
-      "volume": 2949192,
-      "avg_volume": 9209672,
-      "market_cap": 188638789632,
-      "pe_ratio": 26.455275,
-      "forward_pe": 15.10878,
+      "price": 186.435,
+      "previous_close": 193.45,
+      "change_percent": -3.6262598,
+      "volume": 2598668,
+      "avg_volume": 9334857,
+      "market_cap": 177486118912,
+      "pe_ratio": 24.89119,
+      "forward_pe": 14.206239,
       "52w_high": 330.35,
       "52w_low": 185.73,
-      "50d_avg": 241.5246,
-      "200d_avg": 252.6773,
+      "50d_avg": 240.8306,
+      "200d_avg": 252.32104,
       "sector": "Technology",
       "industry": "Software - Application",
       "recent_prices": [
-        199.44000244140625,
         189.97000122070312,
         191.35000610351562,
         194.02999877929688,
-        198.25999450683594
+        193.4499969482422,
+        186.43499755859375
       ],
       "recent_volumes": [
-        23010000,
         21956300,
         13652600,
-        12102200,
-        2962291
+        12112000,
+        13389300,
+        2598704
       ]
     }
   },
   "indices": {
     "S&P 500": {
-      "price": 6982.17,
-      "change_percent": 0.24913412
+      "price": 6967.07,
+      "change_percent": 0.36388022
     },
     "Dow Jones": {
-      "price": 50464.96,
-      "change_percent": 0.6564067
+      "price": 50314.71,
+      "change_percent": 0.2521729
     },
     "NASDAQ": {
-      "price": 23276.865,
-      "change_percent": 0.16435507
+      "price": 23153.072,
+      "change_percent": 0.21905664
     },
     "VIX": {
-      "price": 17.51,
-      "change_percent": 0.8650497
+      "price": 16.92,
+      "change_percent": -4.876686
     }
   }
 }
