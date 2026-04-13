@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-10T10:55:44.201733",
+  "timestamp": "2026-04-13T11:21:42.907275",
   "markets": [
     {
       "id": "540844",
       "question": "Will bitcoin hit $1m before GTA VI?",
-      "outcome_prices": "[\"0.4885\", \"0.5115\"]",
-      "volume": "3955716.627606552",
-      "liquidity": "474725.39514",
+      "outcome_prices": "[\"0.489\", \"0.511\"]",
+      "volume": "3974858.8723175637",
+      "liquidity": "468956.86115",
       "end_date": "2026-07-31T12:00:00Z",
       "category": "Unknown"
     }
