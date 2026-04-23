@@ -1,30 +1,30 @@
 {
-  "timestamp": "2026-04-22T11:19:50.543214",
+  "timestamp": "2026-04-23T11:59:18.150475",
   "markets": [
     {
       "id": "540844",
       "question": "Will bitcoin hit $1m before GTA VI?",
       "outcome_prices": "[\"0.4945\", \"0.5055\"]",
-      "volume": "4012851.2902845563",
-      "liquidity": "473911.59117",
+      "volume": "4016101.578421558",
+      "liquidity": "477375.48225",
       "end_date": "2026-07-31T12:00:00Z",
       "category": "Unknown"
     },
     {
       "id": "556062",
       "question": "MegaETH market cap (FDV) >$2B one day after launch?",
-      "outcome_prices": "[\"0.305\", \"0.695\"]",
-      "volume": "6141428.869621102",
-      "liquidity": "57392.6554",
+      "outcome_prices": "[\"0.3\", \"0.7\"]",
+      "volume": "6228615.479122099",
+      "liquidity": "69680.975",
       "end_date": "2025-12-31T00:00:00Z",
       "category": "Unknown"
     },
     {
       "id": "556063",
       "question": "MegaETH market cap (FDV) >$6B one day after launch?",
-      "outcome_prices": "[\"0.017\", \"0.983\"]",
-      "volume": "2493307.2999540176",
-      "liquidity": "55782.34497",
+      "outcome_prices": "[\"0.0165\", \"0.9835\"]",
+      "volume": "2525331.8530520177",
+      "liquidity": "50712.89594",
       "end_date": "2026-06-30T00:00:00Z",
       "category": "Unknown"
     }
